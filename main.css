@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: green;
+    
+    
+}
+
+.row {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+button :hover {
+    background: #eee;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(46, 39, 39);
+    font-family: sans-serif;
+    font-size: xx-large;
+    
+}
+
+.output {
+    width: 300px;
+    height: 100px;
+    background: #eee;
+    padding: 50px;
+    text-align: right; 
+    border-color: brown;
+    /* border-width: 2px;
+    border-color: rgb(46, 39, 39); */
+
+      
+}
+.first-row{
+    display: flex;
+    flex-direction: row;
+    
+}
+.cal-box{
+    max-width: 400px;
+    margin: 10px;
+    font-family: sans-serif;
+    font-size: xx-large;
+    
+
+}
+
